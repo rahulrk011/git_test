@@ -1,0 +1,44 @@
+
+.Area{
+    display: grid;
+    background-color: rgb(202, 238, 226);
+    width:70vmin;
+    height: 70vmin;
+    border: 20px solid black;
+    margin:0 auto ;
+    margin-top: auto 150px ;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+
+}
+    
+#score{
+    margin: 0 auto;
+}
+.snake{
+    background-color: yellow;
+    border: 0.3vmin solid rgb(14, 196, 18);
+}
+
+.food{
+    
+    border:  2px solid black;
+}
+#score{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+.foodBlocks{
+    display : grid;
+    grid-template-rows: 4;
+    grid-template-columns: repeat(4,1fr);
+    width:70vmin;
+    height:5vmin;
+    margin:0 auto;
+    padding:30px;
+}
+.foodblock{
+    border:  2px solid black;
+}
